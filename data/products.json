@@ -1,0 +1,717 @@
+{
+  "syncedAt": "2026-11-09T08:46:09.076Z",
+  "source": "MRP_Desk_V1_Combined_YBM_Sleepwell.csv",
+  "count": 44,
+  "products": [
+    {
+      "id": "sw-champ-classic-ortho-se",
+      "brand": "Sleepwell",
+      "name": "Champ Classic Ortho SE",
+      "series": "",
+      "warrantyYears": 2,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-champ-classic-se",
+      "brand": "Sleepwell",
+      "name": "Champ Classic SE",
+      "series": "",
+      "warrantyYears": 2,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-champ-regular-se",
+      "brand": "Sleepwell",
+      "name": "Champ Regular SE",
+      "series": "",
+      "warrantyYears": 2,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-dual",
+      "brand": "Sleepwell",
+      "name": "Dual",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-dual-pro",
+      "brand": "Sleepwell",
+      "name": "Dual Pro",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-durafirm-classic-c-se",
+      "brand": "Sleepwell",
+      "name": "Durafirm Classic (C) SE",
+      "series": "Durafirm",
+      "warrantyYears": 10,
+      "description": "Get firm back support.",
+      "features": [
+        "Firm feel",
+        "Knitted fabric",
+        "Assured warranty*",
+        "12.5 cm (5.0\") thick",
+        "Adequate back support",
+        "Comfortable top feel with Quiltec® foam in quilting",
+        "Enhanced comfort with rubberised coir"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 4 Years (number printed inside warranty badge)",
+        "12.5 cm (5.0\") thick"
+      ],
+      "image": "images/sw-durafirm-classic-c-se.jpg"
+    },
+    {
+      "id": "sw-durafirm-classic-se",
+      "brand": "Sleepwell",
+      "name": "Durafirm Classic SE",
+      "series": "Durafirm",
+      "warrantyYears": 10,
+      "description": "Get firm back support.",
+      "features": [
+        "Firm feel",
+        "Knitted fabric",
+        "Assured warranty*",
+        "12.5 cm (5.0\") thick",
+        "Adequate back support",
+        "Comfortable top feel with Quiltec® foam & in quilting",
+        "Optimal firmness with Reinforced fibre bonded foam"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 4 Years (number printed inside warranty badge)",
+        "12.5 cm (5.0\") thick"
+      ],
+      "image": "images/sw-durafirm-classic-se.jpg"
+    },
+    {
+      "id": "sw-durafirm-latex",
+      "brand": "Sleepwell",
+      "name": "Durafirm Latex",
+      "series": "Durafirm",
+      "warrantyYears": 12,
+      "description": "100% Natural Latex for exceptional back support.",
+      "features": [
+        "Gentle feel",
+        "Premium knitted fabric",
+        "Enhanced comfort with Resitec® foam",
+        "12.5 cm (5.0\") thick",
+        "100% Natural Latex",
+        "Assured warranty*",
+        "Plush top feel with Quiltec® foam in quilting",
+        "Comfortable back support with rebonded foam"
+      ],
+      "highlights": [
+        "100% Natural Latex",
+        "Assured warranty: 12 Years (page 23)",
+        "12.5 cm (5.0\") thick",
+        "For germ protection"
+      ],
+      "image": "images/sw-durafirm-latex.jpg"
+    },
+    {
+      "id": "sw-durafirm-luxury",
+      "brand": "Sleepwell",
+      "name": "Durafirm Luxury",
+      "series": "Durafirm",
+      "warrantyYears": 12,
+      "description": "Experience the best back support.",
+      "features": [
+        "Medium firm feel",
+        "Premium knitted fabric",
+        "Assured warranty*",
+        "15.0 cm (6.0\") thick",
+        "Superior support with Reinforced fibre bonded foam",
+        "Luxurious top feel with Quiltec® foam in quilting",
+        "Contour hugging with impression foam"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 6 Years (number printed inside warranty badge)",
+        "15.0 cm (6.0\") thick"
+      ],
+      "image": "images/sw-durafirm-luxury.jpg"
+    },
+    {
+      "id": "sw-durafirm-premium-c-se",
+      "brand": "Sleepwell",
+      "name": "Durafirm Premium (C) SE",
+      "series": "Durafirm",
+      "warrantyYears": 10,
+      "description": "Explore enhanced back support.",
+      "features": [
+        "Medium firm feel",
+        "Plush top feel with Quiltec® foam in quilting",
+        "Assured warranty*",
+        "12.5 cm (5.0\") thick",
+        "Comfortable support with Reinforced fibre bonded foam",
+        "Breathable knitted fabric",
+        "Enhanced comfort with rubberised coir"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 5 Years (number printed inside warranty badge)",
+        "12.5 cm (5.0\") thick"
+      ],
+      "image": "images/sw-durafirm-premium-c-se.jpg"
+    },
+    {
+      "id": "sw-durafirm-premium-se",
+      "brand": "Sleepwell",
+      "name": "Durafirm Premium SE",
+      "series": "Durafirm",
+      "warrantyYears": 10,
+      "description": "Explore enhanced back support.",
+      "features": [
+        "Medium firm feel",
+        "Plush top feel with Quiltec® foam in quilting",
+        "Assured warranty*",
+        "12.5 cm (5.0\") thick",
+        "Superior support with Reinforced fibre bonded foam",
+        "Breathable knitted fabric",
+        "Enhanced comfort with resitec foam"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 5 Years (number printed inside warranty badge)",
+        "12.5 cm (5.0\") thick"
+      ],
+      "image": "images/sw-durafirm-premium-se.jpg"
+    },
+    {
+      "id": "sw-durafirm-sense-se",
+      "brand": "Sleepwell",
+      "name": "Durafirm Sense SE",
+      "series": "",
+      "warrantyYears": 12,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-fitrest-plus-luxury",
+      "brand": "Sleepwell",
+      "name": "FitRest Plus Luxury",
+      "series": "FitRest Plus",
+      "warrantyYears": 12,
+      "description": "Engineered for an active lifestyle. Advanced pressure relief and deep muscle recovery while you sleep.",
+      "features": [
+        "Luxurious gentle feel",
+        "Euro-top finish",
+        "Pro Latex Plus® technology",
+        "Optimal body support",
+        "15.0 cm (6.0\") thick",
+        "Contour hugging",
+        "Assured warranty*",
+        "For germ protection"
+      ],
+      "highlights": [
+        "Recommended by The Indian Association of Physiotherapists (IAP) for muscle recovery. (IAP logo, page 32)",
+        "Assured warranty: 12 Years (page 33)",
+        "15.0 cm (6.0\") thick",
+        "For germ protection"
+      ],
+      "image": "images/sw-fitrest-plus-luxury.jpg"
+    },
+    {
+      "id": "sw-fitrest-plus-premium-se",
+      "brand": "Sleepwell",
+      "name": "FitRest Plus Premium SE",
+      "series": "FitRest Plus",
+      "warrantyYears": 10,
+      "description": "Engineered for an active lifestyle. Advanced pressure relief and deep muscle recovery while you sleep.",
+      "features": [
+        "Gentle feel",
+        "Tight top finish",
+        "Enhanced ergonomic support",
+        "Optimal body support",
+        "12.5 cm (5.0\") thick",
+        "Pro Latex Plus® technology",
+        "Plush quilting for extra comfort",
+        "Assured warranty*"
+      ],
+      "highlights": [
+        "Recommended by The Indian Association of Physiotherapists (IAP) for muscle recovery. (IAP logo, page 34)",
+        "Assured warranty: 10 Years (page 35)",
+        "12.5 cm (5.0\") thick",
+        "For germ protection"
+      ],
+      "image": "images/sw-fitrest-plus-premium-se.jpg"
+    },
+    {
+      "id": "sw-fitrest-plus-sense-se",
+      "brand": "Sleepwell",
+      "name": "Fitrest Plus Sense SE",
+      "series": "",
+      "warrantyYears": 12,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-nexa-plus-luxury-se",
+      "brand": "Sleepwell",
+      "name": "Nexa Plus Luxury SE",
+      "series": "Nexa Plus",
+      "warrantyYears": 12,
+      "description": "Patented Nexa® foam technology with Latex Plus® for easy body movement & undisturbed sleep.",
+      "features": [
+        "Luxurious gentle feel",
+        "Plush top feel with Nexa® foam and Quiltec® foam in quilting with fiber polyfill",
+        "Nexa® foam for easy body movement",
+        "Superior support with Resitec foam",
+        "Assured warranty*",
+        "15 cm (6.0\") thick",
+        "Premium knitted fabric",
+        "Optimal body support"
+      ],
+      "highlights": [
+        "Certified by RMIT University, Australia (certification logo and text, page 16)",
+        "Assured warranty: 12 Years (page 17)",
+        "15 cm (6.0\") thick",
+        "Pro Nexa® comfort layer: 27% faster heat dissipation, 67% better body conformance, 32% higher pressure relief (as printed, page 17)"
+      ],
+      "image": "images/sw-nexa-plus-luxury-se.jpg"
+    },
+    {
+      "id": "sw-nexa-plus-premium",
+      "brand": "Sleepwell",
+      "name": "Nexa Plus Premium",
+      "series": "Nexa Plus",
+      "warrantyYears": 12,
+      "description": "Patented Nexa® foam technology for easy body movement & undisturbed sleep with Nexa quiltec quilting.",
+      "features": [
+        "Gentle feel",
+        "Plush top feel with Nexa® foam and Quiltec® foam in quilting",
+        "Superior support with Resitec foam",
+        "Optimal body support",
+        "12.5 cm (5.0\") thick",
+        "Premium knitted fabric",
+        "Anti-skid",
+        "For germ protection"
+      ],
+      "highlights": [
+        "Certified by RMIT University, Australia (certification logo and text, page 18)",
+        "Assured warranty: 12 Years (page 19)",
+        "12.5 cm (5.0\") thick",
+        "Pro Nexa® comfort layer: 27% faster heat dissipation, 67% better body conformance, 32% higher pressure relief (as printed, page 19)"
+      ],
+      "image": "images/sw-nexa-plus-premium.jpg"
+    },
+    {
+      "id": "sw-ortho",
+      "brand": "Sleepwell",
+      "name": "Ortho",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-ortho-genius-grid",
+      "brand": "Sleepwell",
+      "name": "Ortho Genius Grid",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-ortho-nirvana",
+      "brand": "Sleepwell",
+      "name": "Ortho Nirvana",
+      "series": "",
+      "warrantyYears": 5,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-ortho-pro",
+      "brand": "Sleepwell",
+      "name": "Ortho Pro",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-ortho-pro-latex",
+      "brand": "Sleepwell",
+      "name": "Ortho Pro Latex",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-ortho-pro-spring",
+      "brand": "Sleepwell",
+      "name": "Ortho Pro Spring",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-pro-latex-plus-royale",
+      "brand": "Sleepwell",
+      "name": "Pro Latex Plus Royale",
+      "series": "Pro Latex Plus",
+      "warrantyYears": 12,
+      "description": "Regale in the comfort of ultimate pressure point relief.",
+      "features": [
+        "Ultra plush Luxury",
+        "Plush top feel with Quiltec® foam in quilting with fiber polyfill",
+        "Ultimate muscle pain relief",
+        "Assured warranty*",
+        "20.0 cm (8.0\") thick",
+        "Pro Latex Plus® technology",
+        "Anti-skid",
+        "knitted cool fabric"
+      ],
+      "highlights": [
+        "Acuprofile Technology badge; \"Dynamic pressure point relief\" badge; For germ protection (neem fresche badge)",
+        "Assured warranty: 10 Years (number printed inside warranty badge)",
+        "20.0 cm (8.0\") thick"
+      ],
+      "image": "images/sw-pro-latex-plus-royale.jpg"
+    },
+    {
+      "id": "sw-pro-spinetech-classic-se",
+      "brand": "Sleepwell",
+      "name": "Pro Spinetech Classic SE",
+      "series": "Pro Spinetech",
+      "warrantyYears": 12,
+      "description": "Orthopaedic latex mattress.",
+      "features": [
+        "Medium firm feel",
+        "Comfortable knitted fabric",
+        "Advanced air circulation",
+        "15.0 cm (6.0\") thick",
+        "Purest natural latex for best spinal health",
+        "Anti-skid",
+        "Plush top feel",
+        "3 Zoned profiled resitec foam for best orthopaedic support"
+      ],
+      "highlights": [
+        "Recommended by the Indian Academy of Orthopaedic Surgeons for spine health. (IAOS logo, hero page)",
+        "VPF Technology badge; For germ protection (neem fresche badge)",
+        "Assured warranty: 8 Years (number printed inside warranty badge)",
+        "15.0 cm (6.0\") thick"
+      ],
+      "image": "images/sw-pro-spinetech-classic-se.jpg"
+    },
+    {
+      "id": "sw-pro-spinetech-luxury",
+      "brand": "Sleepwell",
+      "name": "Pro Spinetech Luxury",
+      "series": "Pro Spinetech",
+      "warrantyYears": 12,
+      "description": "Luxurious orthopaedic latex mattress.",
+      "features": [
+        "Medium firm feel",
+        "Luxurious top feel with Quiltec® foam & fibre in quilting",
+        "Superior air circulation",
+        "20.0 cm (8.0\") thick",
+        "Purest natural latex for best spinal health",
+        "Anti-skid",
+        "Moisture - wicking premium knitted fabric",
+        "3 Zoned profiled resitec foam for best orthopaedic support"
+      ],
+      "highlights": [
+        "Recommended by the Indian Academy of Orthopaedic Surgeons for spine health. (IAOS logo, hero page)",
+        "VPF Technology badge; For germ protection (neem fresche badge)",
+        "Assured warranty: 10 Years (number printed inside warranty badge)",
+        "20.0 cm (8.0\") thick"
+      ],
+      "image": "images/sw-pro-spinetech-luxury.jpg"
+    },
+    {
+      "id": "sw-pro-spinetech-premium",
+      "brand": "Sleepwell",
+      "name": "Pro Spinetech Premium",
+      "series": "Pro Spinetech",
+      "warrantyYears": 12,
+      "description": "Premium orthopaedic latex mattress.",
+      "features": [
+        "Medium firm feel",
+        "Plush top feel with Quiltec® foam",
+        "Enhanced air circulation",
+        "17.5 cm (7.0\") thick",
+        "Purest natural latex for best spinal health",
+        "Anti-skid",
+        "Premium breathable knitted fabric",
+        "3 Zoned profiled resitec foam for best orthopaedic support"
+      ],
+      "highlights": [
+        "Recommended by the Indian Academy of Orthopaedic Surgeons for spine health. (IAOS logo, hero page)",
+        "VPF Technology badge; For germ protection (neem fresche badge)",
+        "Assured warranty: 9 Years (number printed inside warranty badge)",
+        "17.5 cm (7.0\") thick"
+      ],
+      "image": "images/sw-pro-spinetech-premium.jpg"
+    },
+    {
+      "id": "sw-spinetech-sense-se",
+      "brand": "Sleepwell",
+      "name": "Spinetech Sense SE",
+      "series": "",
+      "warrantyYears": 12,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-springfresh-pocket-spring-classic-se",
+      "brand": "Sleepwell",
+      "name": "Springfresh Pocket Spring Classic SE",
+      "series": "Springfresh Pocket Spring",
+      "warrantyYears": 12,
+      "description": "Customised two- spring system for targeted pressure relief.",
+      "features": [
+        "Medium firm feel",
+        "Plush double quilting",
+        "Optimal body support",
+        "Assured warranty*",
+        "15.0 cm (6.0\") thick",
+        "Resitec foam for ultimate comfort",
+        "No partner disturbance",
+        "Tight top finish"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 6 Years (number printed inside warranty badge)",
+        "15.0 cm (6.0\") thick",
+        "Two-spring system for upper and lower back support (as printed)"
+      ],
+      "image": "images/sw-springfresh-pocket-spring-classic-se.jpg"
+    },
+    {
+      "id": "sw-springfresh-pocket-spring-premium-se",
+      "brand": "Sleepwell",
+      "name": "Springfresh Pocket Spring Premium SE",
+      "series": "Springfresh Pocket Spring",
+      "warrantyYears": 12,
+      "description": "Customised two- spring system for targeted pressure relief,",
+      "features": [
+        "Medium firm feel",
+        "Plush triple quilting",
+        "Contour hugging",
+        "Air-mesh fabric",
+        "17.5 cm (7.0\") thick",
+        "Resitec foam for ultimate comfort",
+        "No partner disturbance",
+        "Assured warranty*"
+      ],
+      "highlights": [
+        "For germ protection (neem fresche badge)",
+        "Assured warranty: 7 Years (number printed inside warranty badge)",
+        "17.5 cm (7.0\") thick",
+        "Two-spring system for upper and lower back support (as printed)"
+      ],
+      "image": "images/sw-springfresh-pocket-spring-premium-se.jpg"
+    },
+    {
+      "id": "sw-utsav-comfort-classic-se",
+      "brand": "Sleepwell",
+      "name": "Utsav Comfort Classic SE",
+      "series": "",
+      "warrantyYears": 5,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-utsav-comfort-ortho-se",
+      "brand": "Sleepwell",
+      "name": "Utsav Comfort Ortho SE",
+      "series": "",
+      "warrantyYears": 10,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "sw-utsav-comfort-premium-s",
+      "brand": "Sleepwell",
+      "name": "Utsav Comfort Premium S",
+      "series": "Utsav Comfort",
+      "warrantyYears": 10,
+      "description": "Plush comfort for restful sleep.",
+      "features": [
+        "Medium-firm feel",
+        "Resitec foam",
+        "12.5 cm (5”) thick",
+        "Optimal comfort & support",
+        "Assured warranty*",
+        "Luxurious top feel with Quiltec® foam in quilting",
+        "Contour hugging",
+        "For germ protection"
+      ],
+      "highlights": [
+        "Assured warranty: 10 Years (page 37)",
+        "12.5 cm (5”) thick",
+        "For germ protection"
+      ],
+      "image": "images/sw-utsav-comfort-premium-s.jpg"
+    },
+    {
+      "id": "sw-utsav-comfort-regular-se",
+      "brand": "Sleepwell",
+      "name": "Utsav Comfort Regular SE",
+      "series": "",
+      "warrantyYears": 5,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-coir-mattress-joy",
+      "brand": "YBM",
+      "name": "Coir Mattress - Joy",
+      "series": "",
+      "warrantyYears": 1,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-coir-mattress-natura",
+      "brand": "YBM",
+      "name": "Coir Mattress - Natura",
+      "series": "",
+      "warrantyYears": 2,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-coir-mattress-natura-plus",
+      "brand": "YBM",
+      "name": "Coir Mattress - Natura+",
+      "series": "",
+      "warrantyYears": 5,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-folding-mattress-economy",
+      "brand": "YBM",
+      "name": "Folding Mattress - Economy",
+      "series": "",
+      "warrantyYears": null,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-folding-mattress-premium",
+      "brand": "YBM",
+      "name": "Folding Mattress - Premium",
+      "series": "",
+      "warrantyYears": null,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-puf-mattress-delight",
+      "brand": "YBM",
+      "name": "PUF Mattress - Delight",
+      "series": "",
+      "warrantyYears": 1,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-puf-mattress-delight-plus",
+      "brand": "YBM",
+      "name": "PUF Mattress - Delight+",
+      "series": "",
+      "warrantyYears": 5,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-puf-mattress-economy",
+      "brand": "YBM",
+      "name": "PUF Mattress - Economy",
+      "series": "",
+      "warrantyYears": 1,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-puf-mattress-orchid",
+      "brand": "YBM",
+      "name": "PUF Mattress - Orchid",
+      "series": "",
+      "warrantyYears": 2,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    },
+    {
+      "id": "ybm-puf-mattress-zinnia",
+      "brand": "YBM",
+      "name": "PUF Mattress - Zinnia",
+      "series": "",
+      "warrantyYears": 7,
+      "description": "",
+      "features": [],
+      "highlights": [],
+      "image": ""
+    }
+  ]
+}

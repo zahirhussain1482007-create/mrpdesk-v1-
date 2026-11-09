@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef3f9">
+  <title>MRP Desk V1 &middot; Mattress Price Finder</title>
+  <meta name="description" content="Look up the published MRP of any Sleepwell or YBM mattress by thickness and bed size. Every available size, exact price.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css?v=1">
+</head>
+<body>
+  <div class="page">
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand-lockup" href="#finder" aria-label="MRP Desk V1 home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="9" width="26" height="14" rx="3"></rect>
+              <path d="M3 17h26"></path>
+              <path d="M7 9v7"></path>
+              <path d="M5 25v2M27 25v2"></path>
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <span class="brand-line"><span class="brand-name">MRP Desk</span><span class="version-pill">V1</span></span>
+            <span class="brand-sub">Mattress price finder</span>
+          </span>
+        </a>
+
+        <div class="topbar-actions">
+          <span class="topbar-note" id="topbarNote">Loading catalogue&hellip;</span>
+          <div class="menu-wrap" id="menuWrap">
+            <button type="button" class="icon-btn" id="menuBtn" aria-label="Open menu" aria-haspopup="true" aria-expanded="false" aria-controls="menu">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <circle cx="12" cy="5" r="1.9"></circle>
+                <circle cx="12" cy="12" r="1.9"></circle>
+                <circle cx="12" cy="19" r="1.9"></circle>
+              </svg>
+            </button>
+            <div class="menu" id="menu" hidden>
+              <div class="menu-label">Catalogue</div>
+              <a class="menu-item" href="#search" id="menuSearch">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="6.5"></circle>
+                  <path d="M16 16l4.2 4.2"></path>
+                </svg>
+                <span>Search by name</span>
+              </a>
+              <a class="menu-item" href="#finder" id="menuFinder">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 7h16M4 12h10M4 17h7"></path>
+                </svg>
+                <span>Thickness &amp; size finder</span>
+              </a>
+              <button type="button" class="menu-item" id="reloadBtn">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 11a8 8 0 1 0-2.3 5.7"></path>
+                  <path d="M20 5v6h-6"></path>
+                </svg>
+                <span>Reload price data</span>
+              </button>
+              <div class="menu-sep"></div>
+              <div class="menu-note" id="menuNote">Reading the price list&hellip;</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="view" id="finderView" aria-labelledby="pageTitle">
+          <div class="hero">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>Sleepwell + YBM &middot; Published MRP</p>
+            <h1 id="pageTitle">Check any mattress price</h1>
+            <p class="hero-sub">Pick a thickness, enter the bed size in inches, and view every model priced at that combination with its MRP.</p>
+            <div class="data-bar" id="dataBar">
+              <span class="data-item"><span class="live-dot"></span><span id="recordCount">&mdash;</span> price records</span>
+              <span class="data-item"><span id="productCount">&mdash;</span> mattresses</span>
+              <span class="data-item" id="syncTime">Syncing&hellip;</span>
+            </div>
+          </div>
+
+          <section class="finder-card" aria-labelledby="finderTitle">
+            <div class="finder-head">
+              <div>
+                <h2 id="finderTitle">Price finder</h2>
+                <p>Exact MRP for the exact size.</p>
+              </div>
+              <span class="finder-tag">Updates as you type</span>
+            </div>
+
+            <div class="field-group">
+              <div class="field-label"><span class="step">01</span><span class="field-name">Brand</span></div>
+              <div class="chips brand-chips" id="brandChips" role="group" aria-label="Filter by brand">
+                <button type="button" class="chip brand-chip brand-all is-active" data-brand="all" aria-pressed="true"><span class="brand-dot"></span>All Brands</button>
+                <button type="button" class="chip brand-chip brand-sw" data-brand="Sleepwell" aria-pressed="false"><span class="brand-dot"></span>Sleepwell</button>
+                <button type="button" class="chip brand-chip brand-ybm" data-brand="YBM" aria-pressed="false"><span class="brand-dot"></span>YBM</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <div class="field-label"><span class="step">02</span><span class="field-name">Thickness</span><span class="field-hint">In inches</span></div>
+              <div class="chips thickness-chips" id="thicknessChips" role="group" aria-label="Select mattress thickness"></div>
+            </div>
+
+            <div class="field-group field-group-last">
+              <div class="field-label"><span class="step">03</span><span class="field-name">Bed size</span><span class="field-hint">Length &times; breadth in inches</span></div>
+              <div class="size-row">
+                <label class="size-field" for="lengthInput"><span>Length</span>
+                  <input id="lengthInput" type="number" inputmode="numeric" pattern="[0-9]*" min="1" max="120" step="1" value="75" aria-label="Length in inches">
+                </label>
+                <span class="size-times" aria-hidden="true">&times;</span>
+                <label class="size-field" for="breadthInput"><span>Breadth</span>
+                  <input id="breadthInput" type="number" inputmode="numeric" pattern="[0-9]*" min="1" max="120" step="1" value="36" aria-label="Breadth in inches">
+                </label>
+                <button type="button" class="find-btn" id="findBtn">
+                  Find price
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12h13M13 6l6 6-6 6"></path>
+                  </svg>
+                </button>
+              </div>
+              <p class="field-error" id="sizeError" hidden></p>
+            </div>
+          </section>
+
+          <section class="results" id="resultsSection" aria-labelledby="resultsTitle">
+            <div class="results-head">
+              <div class="results-heading">
+                <h2 id="resultsTitle">Loading price list&hellip;</h2>
+                <p id="resultsSub">Preparing the catalogue</p>
+              </div>
+              <div class="results-tools">
+                <span class="updating-flag" id="updatingFlag" hidden><span class="spinner"></span>Updating&hellip;</span>
+                <span class="sort-flag">Lowest MRP first</span>
+              </div>
+            </div>
+            <div class="results-grid" id="resultsWrap" aria-live="off">
+              <div class="loading-panel">
+                <span class="spinner spinner-lg"></span>
+                <span class="loading-copy"><strong>Loading the price list&hellip;</strong><span>Reading the local catalogue on this device</span></span>
+              </div>
+            </div>
+            <p class="sr-only" id="liveStatus" aria-live="polite"></p>
+          </section>
+        </section>
+
+        <section class="view" id="searchView" aria-labelledby="searchTitle" hidden>
+          <div class="search-hero">
+            <a class="back-link" href="#finder">&larr; Back to price finder</a>
+            <p class="eyebrow"><span class="eyebrow-dot"></span>Search by name</p>
+            <h1 id="searchTitle">Find a mattress by name</h1>
+            <p class="hero-sub">Start typing &mdash; suggestions appear as you type. Pick a mattress to see every available size and its exact MRP.</p>
+          </div>
+
+          <section class="search-card" aria-label="Mattress name search">
+            <div class="name-box" id="nameBox">
+              <svg class="name-box-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5"></circle>
+                <path d="M16 16l4.2 4.2"></path>
+              </svg>
+              <input id="nameInput" type="search" placeholder="Try &ldquo;Durafirm&rdquo;, &ldquo;Ortho&rdquo;, &ldquo;Coir&rdquo;&hellip;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Mattress name" aria-controls="searchResults">
+              <button type="button" class="clear-btn" id="clearName" aria-label="Clear search" hidden>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+              </button>
+            </div>
+
+            <div class="search-filter-row">
+              <span class="search-filter-label">Brand</span>
+              <div class="chips brand-chips" id="searchBrandChips" role="group" aria-label="Filter name search by brand">
+                <button type="button" class="chip brand-chip brand-all is-active" data-brand="all" aria-pressed="true"><span class="brand-dot"></span>All Brands</button>
+                <button type="button" class="chip brand-chip brand-sw" data-brand="Sleepwell" aria-pressed="false"><span class="brand-dot"></span>Sleepwell</button>
+                <button type="button" class="chip brand-chip brand-ybm" data-brand="YBM" aria-pressed="false"><span class="brand-dot"></span>YBM</button>
+              </div>
+            </div>
+
+            <p class="search-meta" id="searchMeta"></p>
+            <div class="search-results" id="searchResults"></div>
+          </section>
+        </section>
+
+        <section class="view" id="detailView" aria-labelledby="detailTitle" hidden>
+          <div class="detail-topline">
+            <a class="back-link" id="detailBack" href="#finder">&larr; Back to results</a>
+            <span class="detail-data-tag" id="detailDataTag"></span>
+          </div>
+          <div id="detailBody"></div>
+        </section>
+      </main>
+
+      <footer class="app-foot">
+        <span class="foot-brand">MRP Desk V1</span>
+        <span class="foot-note">Published MRP &mdash; not a selling price.</span>
+        <span class="foot-note" id="footEffective"></span>
+      </footer>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <noscript>
+    <div class="noscript">MRP Desk needs JavaScript for instant price lookup. Please enable JavaScript in this browser.</div>
+  </noscript>
+
+  <script src="assets/js/app.js?v=1"></script>
+</body>
+</html>
